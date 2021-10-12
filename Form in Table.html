@@ -1,54 +1,68 @@
+<!--Webpage title-->    
 <html>
-    <head><title>Registration Form </title></head>
+<head><title>Registration Form </title></head>
     <body>
         <h1 style="border:2px solid Tomato;">Registration form</h1><hr />
         <br />
+        <!--table-->
         <table align="center" width="600">
             <tr>
+                <!--first name-->
                 <td>First Name</td>
                 <td><input type="text" /></td>
                 </tr>
+                <!--Last name-->
             <tr>
                 <td>Last Name</td>
                 <td><input type="text" /></td>
                 </tr>
+                <!--Email-->
             <tr>
                 <td>Enter your mail</td>
                 <td><input type="email" id="email" name="email" /></td>
                 </tr>
+                <!--password-->
                 <tr>
                     <td>Password</td>
                     <td><input type="password" /></td>
                     </tr>
+                    <!--repassword-->
                 <tr>
                     <td>Re Password</td>
                     <td><input type="password" /></td>
                     </tr>
+                    <!--Address-->
                 <tr>
                     <td>Address</td>
                     <td><textarea rows="5" cols="35" ></textarea></td>
                     </tr>
+                    <!--state-->
                 <tr>
                     <td>State</td>
                     <td><select><option>Choose State</option><option>Madhya Pradesh</option><option>Uttar Pradesh</option></select></td>
                     </tr>
+                    <!--city/drop down-->
                 <tr>
                     <td>City</td>
                     <td><select><option>Choose City</option><option>Indore</option><option>Ujjain</option></select></td>
                     </tr>
+                    <!--contact/Text-->
                 <tr>
                     <td>Contact no.</td>
                     <td><input type="text" /></td>
                     </tr>
+                    <!--Bith Details-->
                     <tr>
                         <td>Birth Details</td>
                         <td><input type="datetime-local" name="Birth Details" /></td>
                         </tr>
+              <!--Gender/Radio-->
                 <tr>
                     <td>Gender</td>
                     <td><input type="radio" name="gender" />Male
                     <input type="radio" name="gender" />Female
                     </td>
+                    <!--hobby-->
                 <tr>
                     <td>Hobby</td>
                     <td>Cricket<input type="checkbox" /> 
@@ -56,6 +70,7 @@
                     Music<input type="checkbox" /> 
                     Internet<input type="checkbox" /> 
                     </td>
+                    <!--caste/Radio-->
                     <tr>
                         <td>Caste</td>
                         <td><input type="radio" name="gender" />OBC
@@ -65,22 +80,18 @@
                         </td>
                     
                     </tr>
+                    <!--File-->
                     <tr>
                         <td>Upload File</td>
                         <td><input type="file" value="submit" /></td>
                     <tr />
+                    <!--I agree-->
                     <tr>
                         <td><input type="checkbox" />I Agree</td>
+                        <!--Submit-->
                         <td><input type="submit" value="submit" /></td>
                     <tr />
-                    
-                    
-                    
-                
-                
-            
-               
-        </table>
+                 </table>
         
     </body>
 </html>
